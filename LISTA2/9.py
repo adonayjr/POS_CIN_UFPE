@@ -1,0 +1,1 @@
+# Altere o programa anterior para garantir que o usuário digitará no máximo 1000 números. 
