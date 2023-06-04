@@ -1,3 +1,5 @@
+# soluções usando os comandos for e while, respectivamente.
+# Somar os inteiros ímpares entre dois valores inteiros informados pelo usuário
 inicio = int(input("Digite o valor de início: "))
 fim = int(input("Digite o valor de fim: "))
 

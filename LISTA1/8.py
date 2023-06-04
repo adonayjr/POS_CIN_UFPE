@@ -1,3 +1,5 @@
+# Construir uma tabela de conversão de graus Fahrenheit para Celsius, 
+# para todos os Fahrenheit em um intervalo informado pelo usuário. Obs: C = (F - 32) * 5/9.
 inicio = int(input("Digite o valor de início (em Fahrenheit): "))
 fim = int(input("Digite o valor de fim (em Fahrenheit): "))
 

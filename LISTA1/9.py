@@ -1,3 +1,4 @@
+# Ler um número inteiro N e imprimir o valor do n-ésimo termo da sequência a seguir [-1,0,5,6, 11,12, 17,18, ...]
 N = int(input("Digite o valor de N: "))
 
 termo = 0

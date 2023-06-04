@@ -1,3 +1,6 @@
+# Ler 3 números de tipo float, calcular a sua média aritmética, e imprimir os números juntamente com o resultado.
+# E se os números forem inteiros?
+
 # Leitura dos três números float
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
