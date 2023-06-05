@@ -1,3 +1,5 @@
+# soluções usando os comandos for e while, respectivamente.
+# Calcular o fatorial de um número inteiro lido.
 numero = int(input("Digite um número inteiro: "))
 
 fatorial = 1

@@ -1,3 +1,5 @@
+# Ler 3 números e imprimir o menor deles. Sua solução é facilmente escalável para uma grande quantidade de números?
+
 # Leitura dos números
 numeros = []
 
