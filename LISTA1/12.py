@@ -3,15 +3,16 @@
 # A leitura dos números deve parar quando um número negativo for lido.
 
 numeros = []
+qtd = 1
 
-n = int(input("Digite quantas notas para calcular: "))
+numero = float(input("Digite o nota 1: "))
 
-for i in range(n):
-    numero = float(input("Digite o número: "))
-    if numero >= 0:
+while numero >= 0:
+        qtd+=1
         numeros.append(numero)
-    else:
-        print("Não é possivel inserir numero negativo")
-        break
-media = (sum(numeros))/n
+        numero = float(input(f"Digite o nota {qtd}: "))
+        if numero < 0:
+            print("Não é possivel inserir numero negativo") 
+        
+media = (sum(numeros))/len(numeros)
 print("A media aritmetica é: ", media)
