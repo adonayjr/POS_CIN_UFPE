@@ -2,13 +2,15 @@
 # Calcular o menor de uma série de números inteiros lidos. 
 # A leitura dos números deve parar quando o número zero for lido.
 
+
+numero = int(input("Digite uma sequencia de numeros: 0->Parar: "))
 numeros = []
 
-n = int(input("Digite a quantidade de números: "))
-
-for i in range(n):
-    numero = float(input("Digite o número: "))
+while numero > 0:
     numeros.append(numero)
+    numero = int(input("Digite uma sequencia de numeros: 0->Parar: "))
+    if numero <= 0:
+        print('Código parou')
 
 # Verificação do menor número
 menor_numero = min(numeros)

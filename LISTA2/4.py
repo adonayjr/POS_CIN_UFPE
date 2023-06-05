@@ -2,11 +2,11 @@
 
 usuario = input("Digite seu nome de usuario: ")
 
-web1 = usuario.split (' ')
-print(web1)
+separar = usuario.split (' ')
+print('Lista com seu nome: ', separar)
 
-web1[0] = web1[0].upper() 
-web1[-1] = web1[-1].upper() 
-juntar = " ".join(web1)
+separar[0] = separar[0].upper() 
+separar[-1] = separar[-1].upper() 
+juntar = " ".join(separar)
 
-print(juntar)
+print('Primeiro e ultimo nome maiusculo', juntar)
