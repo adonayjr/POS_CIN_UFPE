@@ -1,6 +1,6 @@
 # Altere o programa anterior para garantir que o usuário digitará no máximo 1000 números. 
 
-maximo = 5
+maximo = 1000
 lista = [0] *maximo
 cont = 0
 cont2 = 0
@@ -9,7 +9,7 @@ num = int(input("numero :"))
 while num < 0:
     num = int(input("invalido. n: "))
 
-while num >= 0 and cont < 5:
+while num >= 0 and cont < maximo:
     cont = cont + 1
     if num > 9 and num < 100:
         lista[cont2] = num
