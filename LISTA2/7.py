@@ -3,4 +3,17 @@
 
 
 
-                     
+n = int(input("Digite quantidade de notas: "))
+notas = []
+maior = []
+
+for i in range(n):
+    numero = float(input("Digite as notas: "))
+    notas.append(numero)
+media = sum(notas)/n 
+for numero in notas:
+    if numero > media:
+        maior.append(numero)  
+        print('nota maior que a media: ',maior)
+print('sua media: ', media)
+
