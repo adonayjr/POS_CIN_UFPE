@@ -5,5 +5,14 @@
 
 
 
+def inverter (n):
+    res = 0
+    while n > 0:
+        res = res * 10 + (n % 10)
+        n = n // 10
+    return res
 
-     
+for i in range (10000, 19500):
+    if i == inverter (i):
+        print(i, end=' ')
+print('Fim')
