@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA;
+package PROGRAMACAO.JAVA.printf;
 
 public class Printf {
 	
