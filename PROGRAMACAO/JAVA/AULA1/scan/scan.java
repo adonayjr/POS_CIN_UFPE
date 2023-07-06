@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.scan;
+package PROGRAMACAO.JAVA.AULA1.scan;
 
 import java.util.Scanner;
 
