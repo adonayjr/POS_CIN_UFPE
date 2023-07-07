@@ -6,7 +6,7 @@ Informe três notas, em sequência:
 Média aritmética:  6
  */
 
-package PROGRAMACAO.JAVA.ATIVIDADES.atividade2;
+package PROGRAMACAO.JAVA.ATIVIDADES1.atividade2;
 
 import java.util.Scanner;
 

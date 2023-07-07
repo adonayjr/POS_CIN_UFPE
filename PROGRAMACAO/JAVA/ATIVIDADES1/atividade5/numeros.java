@@ -5,7 +5,7 @@ Insira o segundo número:
 3
 Resultado: 8 */
 
-package PROGRAMACAO.JAVA.ATIVIDADES.atividade5;
+package PROGRAMACAO.JAVA.ATIVIDADES1.atividade5;
 
 import static java.lang.Math.pow;
 
