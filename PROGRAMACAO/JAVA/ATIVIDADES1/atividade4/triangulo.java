@@ -5,7 +5,7 @@ Insira a altura:
 10
 Area do triangulo:  20 */
 
-package PROGRAMACAO.JAVA.ATIVIDADES.atividade4;
+package PROGRAMACAO.JAVA.ATIVIDADES1.atividade4;
 
 import java.util.Scanner;
 

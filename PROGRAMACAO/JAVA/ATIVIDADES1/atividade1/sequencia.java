@@ -6,7 +6,7 @@ Informe quatro números, em sequência:
 4
 Resultado da soma:  10*/
 
-package PROGRAMACAO.JAVA.ATIVIDADES.atividade1;
+package PROGRAMACAO.JAVA.ATIVIDADES1.atividade1;
 
 import java.util.Scanner;
 

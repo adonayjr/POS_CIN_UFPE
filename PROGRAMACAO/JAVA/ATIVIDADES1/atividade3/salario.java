@@ -3,7 +3,7 @@ Insira o salário:
 1000
 Novo salário:  1250 */
 
-package PROGRAMACAO.JAVA.ATIVIDADES.atividade3;
+package PROGRAMACAO.JAVA.ATIVIDADES1.atividade3;
 
 import java.util.Scanner;
 
