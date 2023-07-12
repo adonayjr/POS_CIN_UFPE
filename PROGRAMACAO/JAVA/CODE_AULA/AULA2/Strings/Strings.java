@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.Strings;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.Strings;
 
 import java.util.Arrays;
 

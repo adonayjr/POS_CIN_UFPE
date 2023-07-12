@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA1.println;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA1.println;
 
 public class Println {
 	

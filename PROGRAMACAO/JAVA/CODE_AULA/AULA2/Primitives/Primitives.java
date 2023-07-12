@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.Primitives;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.Primitives;
 
 public class Primitives {
 

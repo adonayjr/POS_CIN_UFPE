@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.IncInAction;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.IncInAction;
 
 public class IncInAction {
 

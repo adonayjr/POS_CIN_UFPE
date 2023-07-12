@@ -31,20 +31,38 @@ Erro */
 
 package PROGRAMACAO.JAVA.ATIVIDADES4.CASO2;
 
+import java.util.Scanner;
+
 public class caso2 {
-	static float soma(float num1, float num2){
-		return num1 + num2;
-	}
 	 public static void main(String[] args) {
 
-		int v[] = new int[5]; // TAM FIXOOO!!!!!
+        Scanner scan = new Scanner(System.in);
 
-		float m;
+		int x, y, z;
+        
+		System.out.printf("Digite num 1: \n");
+		x = scan.nextInt();
+		System.out.printf("Digite num 2: \n");
+		y = scan.nextInt();
+		System.out.printf("Digite num 2: \n");
+		z= scan.nextInt();
 
-		v[0] = 50; // atribuicao seletiva!!
-		v[1] = 40;
-		v[2] = 30;
-	 
-	
-	}
+		int c = condicao(x, y, z);
+
+        scan.close();
+        
+        if (c == 0) {
+            System.out.println("Condição perfeita"); 
+        } else {
+            System.out.println("Erro");
+        }
+    }
+
+    public static int condicao(int x, int y, int z) {
+        if ((x > y && x > z) || (y < x && y > z) || (z < x && y > z)) {
+            return 0;
+        } else {
+            return -1;
+        }
+    }
 }
