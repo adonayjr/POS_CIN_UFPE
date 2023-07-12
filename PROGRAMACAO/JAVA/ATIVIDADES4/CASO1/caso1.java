@@ -13,7 +13,7 @@ Insira o primeiro número:
 1
 Insira o segundo número:
 1
-Os números são iguais */
+Os números são iguais. */
 
 package PROGRAMACAO.JAVA.ATIVIDADES4.CASO1;
 
@@ -21,28 +21,29 @@ import java.util.Scanner;
 
 public class caso1 {
 
-    static int maior(int num1, int num2){
-        if(num1>num2){
-        return num1;
-        }else if(num1<num2){
-        return num2;
-        }else{
-        return 0;
+    static int maior(int num1, int num2) {
+        if (num1 > num2) {
+            return num1;
+        } else if (num1 < num2) {
+            return num2;
+        } else {
+            return 0;
         }
     }
-	 public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-		int x, y, m;
-		System.out.printf("Digite num 1: \n");
-		x = scan.nextInt();
-		System.out.printf("Digite num 2: \n");
-		y = scan.nextInt();
+        int x, y, m;
+        System.out.printf("Digite num 1: \n");
+        x = scan.nextInt();
+        System.out.printf("Digite num 2: \n");
+        y = scan.nextInt();
 
-		m = maior(x,y);
+        m = maior(x, y);
 
-		System.out.printf("Maior:%\n", m);
+        System.out.printf("Maior:%\n", m);
 
-		scan.close(); //fechando o buffer
-	}
- }
+        scan.close(); // fechando o buffer
+    }
+}
