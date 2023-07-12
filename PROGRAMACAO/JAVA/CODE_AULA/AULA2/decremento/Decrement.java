@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.decremento;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.decremento;
 
 public class Decrement {
 

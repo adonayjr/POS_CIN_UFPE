@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.VarsAndConstants;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.VarsAndConstants;
 
 import java.util.Scanner;
 

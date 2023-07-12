@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA1.incremento;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA1.incremento;
 
 public class incremento {
 

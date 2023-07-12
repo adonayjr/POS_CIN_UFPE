@@ -13,37 +13,42 @@ Insira o primeiro número:
 1
 Insira o segundo número:
 1
-Os números são iguais. */
-
+Os números são iguais */
 package PROGRAMACAO.JAVA.ATIVIDADES4.CASO1;
 
 import java.util.Scanner;
 
 public class caso1 {
+	 public static void main(String[] args) {
 
-    static int maior(int num1, int num2) {
-        if (num1 > num2) {
-            return num1;
-        } else if (num1 < num2) {
-            return num2;
+        Scanner scan = new Scanner(System.in);
+
+		int x, y;
+        
+        
+		System.out.printf("Digite num 1: \n");
+		x = scan.nextInt();
+		System.out.printf("Digite num 2: \n");
+		y = scan.nextInt();
+
+        int m = maior(x,y);
+
+        scan.close();
+        
+        if (m != -1) {
+            System.out.println("O maior número é: " + m); 
         } else {
-            return 0;
+            System.out.println("Os números são iguais");
         }
     }
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-
-        int x, y, m;
-        System.out.printf("Digite num 1: \n");
-        x = scan.nextInt();
-        System.out.printf("Digite num 2: \n");
-        y = scan.nextInt();
-
-        m = maior(x, y);
-
-        System.out.printf("Maior:%\n", m);
-
-        scan.close(); // fechando o buffer
+    public static int maior(int x, int y) {
+        if (x > y) {
+            return x;
+        } else if (y > x) {
+            return y;
+        } else {
+            return -1;
+        }
     }
 }

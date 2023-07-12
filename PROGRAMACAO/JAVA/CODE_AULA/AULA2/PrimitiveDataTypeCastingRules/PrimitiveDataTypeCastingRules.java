@@ -1,4 +1,4 @@
-package PROGRAMACAO.JAVA.AULA2.PrimitiveDataTypeCastingRules;
+package PROGRAMACAO.JAVA.CODE_AULA.AULA2.PrimitiveDataTypeCastingRules;
 
 public class PrimitiveDataTypeCastingRules {
 
